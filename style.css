@@ -1,5 +1,5 @@
 @import 
-url ('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 * {
 	box-sizing: border-box;
 }
@@ -94,26 +94,6 @@ input:focus {
 .form-control .error img {
 	opacity: 1;
 }
-.form-control small {
-  opacity: 0;
-}
-.form-control.error small {
-	opacity: 1;
-}
-small {
-	display: block;
-	color: #bbb;
-	font-size: 11px;
-	font-weight: 500;
-	margin-top: 15px;
-}
-
-small a {
-	color: hsl(0, 100%, 74%);
-	font-weight: 600;
-	text-decoration: none;
-}
-
 button {
   background-color: hsl(154, 59%, 51%);
 	border-radius: 5px;
@@ -138,7 +118,25 @@ button:active {
 	box-shadow: 0 0 hsl(154, 59%, 45%);
 	transform: translateY(2px);
 }
+.form-control small {
+  opacity: 0;
+}
+.form-control.error small {
+	opacity: 1;
+}
+small {
+	display: block;
+	color: #bbb;
+	font-size: 11px;
+	font-weight: 500;
+	margin-top: 15px;
+}
 
+small a {
+	color: hsl(0, 100%, 74%);
+	font-weight: 600;
+	text-decoration: none;
+}
 @media screen and (max-width: 768px) {
 	h1 {
 		text-align: center;
